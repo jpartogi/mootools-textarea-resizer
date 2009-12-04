@@ -1,4 +1,4 @@
 Mootools Textarea Resizer
 =========================
 
-A simple `Mootools <http://mootools.net>` textarea resizer plugin.
+A simple `Mootools <http://mootools.net>`_ textarea resizer plugin.
