@@ -8,9 +8,9 @@ Dependencies
 - Mootools 1.2.x (Tested with Mootools 1.2.3 and 1.2.4)
 
 
-Now with this plugin you shall be able to transform your textarea into a resizable textarea like this:
-
-::
+Example
+-------
+Now with this plugin you shall be able to transform your textarea into a resizable textarea like this::
     window.addEvent('load', function() {
         $$('textarea').resizable();
     });
