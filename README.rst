@@ -3,16 +3,19 @@ Mootools Textarea Resizer
 
 A simple `Mootools <http://mootools.net>`_ textarea resizer plugin.
 
+
+------------
 Dependencies
-~~~~~~~~~~~~
+------------
 
 - Mootools 1.2.x (Tested with Mootools 1.2.3 and 1.2.4)
 
 
+-------
 Example
-~~~~~~~~
+-------
 
-Now with this plugin you shall be able to transform your textarea into a resizable textarea like this:
+Now with this plugin you shall be able to transform your textarea into a resizable textarea with one line of code like this:
 
 ::
 
@@ -26,3 +29,6 @@ Now with this plugin you shall be able to transform your textarea into a resizab
 - More than one textarea will also work.
 
 Take a look at the example provided with this distribution on how to use it.
+
+
+Copyright (c) 2009 [Joshua Partogi](http://scrum8.com/).
