@@ -12,11 +12,13 @@ Dependencies
 Example
 ~~~~~~~~
 
-Now with this plugin you shall be able to transform your textarea into a resizable textarea like this::
+Now with this plugin you shall be able to transform your textarea into a resizable textarea like this:
 
-window.addEvent('load', function() {
-    $$('textarea').resizable();
-});
+::
+
+    window.addEvent('load', function() {
+        $$('textarea').resizable();
+    });
 
 
 
