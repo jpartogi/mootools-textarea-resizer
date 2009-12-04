@@ -3,7 +3,7 @@ description: Mootools TextareaResizer plugin for Mootools 1.2.x
 
 license: MIT-style license.
 
-copyright: Copyright (c) 2009 [Joshua Partogi](http://scrum8.com/).
+copyright: Copyright (c) 2009 Joshua Partogi (http://scrum8.com/).
 
 authors: Joshua Partogi (http://scrum8.com/)
 

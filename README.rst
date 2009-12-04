@@ -31,4 +31,5 @@ Now with this plugin you shall be able to transform your textarea into a resizab
 Take a look at the example provided with this distribution on how to use it.
 
 
-Copyright (c) 2009 [Joshua Partogi](http://scrum8.com/).
+
+Copyright (c) 2009 Joshua Partogi (http://scrum8.com/).
