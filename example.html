@@ -1,0 +1,20 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <title>A simple example on how to use Mootools textarea resizer</title>
+        <link rel="stylesheet" type="text/css" href="textarea-resizer.css"/>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/mootools/1.2.4/mootools-yui-compressed.js"></script>
+        <script type="text/javascript" src="mootools-textarea-resizer.js"></script>
+        <script type="text/javascript">
+            window.addEvent('load', function() {
+                $('description').resizable();
+            });
+        </script>
+    </head>
+    <body>
+        <p>
+        <textarea id="description" cols="90" rows="10" >Lorem ipsum dolor sit amet, consectetur adipiscing elit.</textarea>
+        </p>
+    </body>
+</html>
