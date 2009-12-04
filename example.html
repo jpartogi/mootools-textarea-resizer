@@ -2,8 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-        <title>A simple example on how to use Mootools textarea resizer</title>
+        <title>Mootools textarea resizer example</title>
         <link rel="stylesheet" type="text/css" href="textarea-resizer.css"/>
+        <style type="text/css">
+            iframe { margin: 0; }
+            textarea, iframe { border: 1px solid #ddd; font: 12px Verdana; }
+        </style>
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/mootools/1.2.4/mootools-yui-compressed.js"></script>
         <script type="text/javascript" src="mootools-textarea-resizer.js"></script>
         <script type="text/javascript">
@@ -12,17 +16,26 @@
                 //
                 // $('description').resizable();
                 $$('textarea').resizable();
+                $$('iframe').resizable();
                 // $$('p > #description').resizable();
             });
         </script>
     </head>
     <body>
         <p>
-        <textarea id="description" cols="90" rows="10" >Lorem ipsum dolor sit amet, consectetur adipiscing elit.</textarea>
+            <h2>Simple textarea + Resizer bar (grippie)</h2>
+            <textarea id="description" cols="90" rows="10" >Lorem ipsum dolor sit amet, consectetur adipiscing elit.</textarea>
         </p>
 
         <p>
-        <textarea cols="90" rows="10" >Lorem ipsum dolor sit amet, consectetur adipiscing elit.</textarea>
+            <h2>Simple iFrame + Resizer bar (grippie)</h2>
+            <iframe src="http://mootools.net" width="800px" height="200px"></iframe>
         </p>
+
+        <p>
+             <h2>Another Simple textarea + Resizer bar (grippie)</h2>
+            <textarea cols="90" rows="10" >Lorem ipsum dolor sit amet, consectetur adipiscing elit.</textarea>
+        </p>
+
     </body>
 </html>

@@ -1,4 +1,4 @@
-/*
+/**
 description: Mootools TextareaResizer plugin for Mootools 1.2.x
 
 license: MIT-style license.
@@ -6,7 +6,6 @@ license: MIT-style license.
 copyright: Copyright (c) 2009 Joshua Partogi (http://scrum8.com/).
 
 authors: Joshua Partogi (http://scrum8.com/)
-
 */
 var TextareaResizer = new Class({
 
@@ -22,13 +21,17 @@ var TextareaResizer = new Class({
         var iMin = 32;
 
         var textarea = this.element;
-        var div = new Element('div').addClass('resizable-textarea');
+        textarea.addClass('processed');
         
-        div.wraps(textarea);
-        div.setStyle('width', textarea.getStyle('width').toInt());
+        var div = new Element('div').addClass('resizable-textarea');
+        var span = new Element('span');
+
+        div.wraps(span.wraps(textarea));
 
         var grippie = new Element('div').addClass('grippie');
-        grippie.inject(div, 'bottom');
+        grippie.inject(span);
+        grippie.setStyle('margin-right', grippie.offsetWidth - textarea.offsetWidth);
+        grippie.setStyle('width', textarea.getStyle('width'));
 
         var endDrag = function(e) {            
             document.removeEvent('mousemove', performDrag);

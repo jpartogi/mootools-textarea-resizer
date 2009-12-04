@@ -6,4 +6,10 @@
     cursor:s-resize;
     height:9px;
     overflow:hidden;
+    width: 100%;
+}
+
+.resizable-textarea {
+    display:block;
+    margin-bottom:0pt;
 }
