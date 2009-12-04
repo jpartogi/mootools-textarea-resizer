@@ -8,13 +8,21 @@
         <script type="text/javascript" src="mootools-textarea-resizer.js"></script>
         <script type="text/javascript">
             window.addEvent('load', function() {
-                $('description').resizable();
+                // Any Mootools Element function will work. Just comment out either one of these lines:
+                //
+                // $('description').resizable();
+                // $$('textarea').resizable();
+                // $$('p > #description').resizable();
             });
         </script>
     </head>
     <body>
         <p>
         <textarea id="description" cols="90" rows="10" >Lorem ipsum dolor sit amet, consectetur adipiscing elit.</textarea>
+        </p>
+
+        <p>
+        <textarea cols="90" rows="10" >Lorem ipsum dolor sit amet, consectetur adipiscing elit.</textarea>
         </p>
     </body>
 </html>
