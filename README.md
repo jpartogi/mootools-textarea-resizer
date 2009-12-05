@@ -10,8 +10,8 @@ Dependencies
 - Mootools 1.2.x (Tested with Mootools 1.2.3 and 1.2.4)
 
 
-Example
--------
+How to use
+----------
 
 Now with this plugin you shall be able to transform your textarea into a resizable textarea with one line of code like this:
 
