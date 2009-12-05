@@ -1,5 +1,6 @@
 /*
-description: Mootools TextareaResizer plugin for Mootools 1.2.x
+---
+description: Mootools TextareaResizer plugin
 
 license: MIT-style
 
@@ -10,6 +11,7 @@ requires:
 - core:1.2.4: '*'
 
 provides: [TextareaResizer]
+
 */
 var TextareaResizer = new Class({
 
