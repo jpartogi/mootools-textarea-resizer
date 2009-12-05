@@ -5,10 +5,10 @@ description: Mootools TextareaResizer plugin
 license: MIT-style
 
 authors:
-- Joshua Partogi (http://scrum8.com/)
+  - Joshua Partogi (http://scrum8.com/)
 
 requires:
-- core/1.2.4:   '*'
+  core/1.2.4:Core
 
 provides: [TextareaResizer]
 
