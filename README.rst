@@ -27,9 +27,12 @@ Now with this plugin you shall be able to transform your textarea into a resizab
 
 - Any Mootools Element function will work.
 - More than one textarea will also work.
+- Heck, it even works on iframe
 
 Take a look at the `example <http://sitemedia.scrum8.com/textarea-resizer/example.html>`_ provided with this distribution on how to use it.
 
 
-
+-------
+License
+-------
 Copyright (c) 2009 Joshua Partogi (http://scrum8.com/).
