@@ -1,5 +1,4 @@
 /*
----
 description: Mootools TextareaResizer plugin for Mootools 1.2.x
 
 license: MIT-style
@@ -8,10 +7,9 @@ authors:
 - Joshua Partogi (http://scrum8.com/)
 
 requires:
-- Mootools 1.2.x
+- core:1.2.4: '*'
 
 provides: [TextareaResizer]
-
 */
 var TextareaResizer = new Class({
 
