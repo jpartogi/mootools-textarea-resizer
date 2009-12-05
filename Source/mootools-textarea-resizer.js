@@ -8,10 +8,11 @@ authors:
 - Joshua Partogi (http://scrum8.com/)
 
 requires:
-- core:1.2.4: '*'
+- core:1.2.3: '*'
 
 provides: [TextareaResizer]
 
+...
 */
 var TextareaResizer = new Class({
 
