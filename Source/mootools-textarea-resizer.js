@@ -8,7 +8,7 @@ authors:
 - Joshua Partogi (http://scrum8.com/)
 
 requires:
-- core:1.2.3: '*'
+- Core
 
 provides: [TextareaResizer]
 
